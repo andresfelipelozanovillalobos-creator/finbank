@@ -1,0 +1,11 @@
+# Copiar este archivo como db_config.yaml (sin el .example) y llenarlo.
+# db_config.yaml esta en el .gitignore, no se sube al repo.
+#
+# El server y la database salen del portal de Azure, o de los outputs de
+# terraform: terraform output sql_server_fqdn / sql_database_name
+
+server: "finbanksql.database.windows.net"
+database: "finbank_data"
+user: "adminfinbank"
+password: "k9F6HnJEa3E0"
+port: 1433

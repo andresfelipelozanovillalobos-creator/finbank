@@ -1,0 +1,5 @@
+$py = "C:\Users\andre\.conda\envs\notebook-env\python.exe"
+cd "C:\Users\andre\OneDrive\Desktop\Nuevo proyecto\FinBank_Data_Pipeline\data_generation"
+
+& $py run_all.py           # genera los 6 archivos en output\
+& $py load_data_to_sql.py  # borra las tablas, las crea y sube los datos

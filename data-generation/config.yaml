@@ -1,0 +1,37 @@
+# Parametros de la generacion de datos.
+# Cambiando la semilla se obtiene un dataset distinto pero igual de valido.
+
+seed: 42
+
+periodo:
+  fecha_inicio: "2025-09-01"
+  fecha_fin: "2026-08-31"
+
+volumenes:
+  clientes: 10000
+  productos: 50
+  sucursales: 200
+  obligaciones: 30000
+  movimientos: 500000
+  comisiones: 80000
+
+# porcentaje de nulos en campos opcionales
+calidad:
+  pct_nulos: 0.05
+
+# anomalias que se meten a proposito en los movimientos
+anomalias:
+  pct_duplicados: 0.005
+  pct_fechas_fuera_rango: 0.003
+  pct_ids_huerfanos: 0.005
+  pct_montos_invalidos: 0.003
+
+paises:
+  - {nombre: "Colombia",  ciudades: ["Bogota", "Medellin", "Cali", "Barranquilla"]}
+  - {nombre: "Mexico",    ciudades: ["Ciudad de Mexico", "Guadalajara"]}
+  - {nombre: "Peru",      ciudades: ["Lima"]}
+  - {nombre: "Chile",     ciudades: ["Santiago"]}
+  - {nombre: "Argentina", ciudades: ["Buenos Aires"]}
+
+salida:
+  directorio: "./output"
