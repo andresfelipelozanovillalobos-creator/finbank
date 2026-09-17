@@ -49,7 +49,7 @@ distribución uniforme o estacional según el sector
 
 <img width="1178" height="616" alt="image" src="https://github.com/user-attachments/assets/c9bce4e1-6703-49e1-a872-7c167a307a6f" />
 
-# se implementa arquitectura medallon 
+# se implementa arquitectura Medallion 
 <img width="2392" height="939" alt="image" src="https://github.com/user-attachments/assets/f34b4ae4-a71d-45ba-b3e0-0489dc5897e8" />
 
 
@@ -74,6 +74,22 @@ La solución implementa una arquitectura Medallón sobre Azure, utilizando Azure
   <img width="2512" height="1390" alt="image" src="https://github.com/user-attachments/assets/88821f3f-01d6-40ae-a2a7-264819ecf824" />
 
   <img width="2540" height="786" alt="image" src="https://github.com/user-attachments/assets/d44aac24-01f5-4eeb-bd94-23b1b6f17972" />
+
+  **Procesamiento (Silver)**
+
+   Azure Databricks utilizando PySpark realiza los procesos de limpieza, validación y transformación de datos.
+
+   Procesos aplicados:
+   - Tratamiento de valores nulos.
+   - Normalización de campos categóricos.
+   - Validación de formatos y tipos de datos.
+   - Clasificación de rangos de mora.
+   - Detección de movimientos sospechosos mediante reglas estadísticas.
+   - Enmascaramiento de información sensible.
+
+<img width="2552" height="1399" alt="image" src="https://github.com/user-attachments/assets/42651746-90ef-49ff-87e4-cf19b55ab879" />
+
+
 
 
 
