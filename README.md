@@ -25,10 +25,12 @@ confiables y actualizados sin procesos manuales
 
 # Plataforma seleccionada
 
-Microsoft Azure: Se seleccionó Azure debido a que era el entorno cloud con el que se tenía mayor acercamiento previo y documentación disponible, lo que permitió aprovechar mejor el tiempo asignado a la prueba técnica, enfocándose en la implementación de la solución y el aprendizaje específico de los servicios requeridos, en lugar de iniciar desde cero con una plataforma diferente.
+Microsoft Azure: Se seleccionó Azure debido a la relación directa que tiene con tecnologías Microsoft y con mi experiencia previa trabajando con bases de datos SQL Server. Aunque anteriormente había trabajado con SQL Server en entornos tradicionales (SQL EXPRESS LOCAL), esta prueba representó mi primer acercamiento implementando soluciones de datos sobre servicios cloud de Azure.
+
+La elección de esta plataforma permitió aprovechar los conocimientos adquiridos en bases de datos relacionales y aplicarlos en nuevos servicios como Azure Data Factory, Azure Data Lake Storage Gen2 y Azure Databricks, enfocándome en construir un flujo completo de ingesta, transformación y procesamiento de datos dentro de una arquitectura moderna de datos.
 
 
-# se genera masivamente python
+# Se genera masivamente python
 
 Distribuciones realistas: los datos no deben ser completamente aleatorios. Por ejemplo, las
 ventas deben concentrarse en horarios pico, las edades deben seguir una distribución normal,
