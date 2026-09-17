@@ -1,4 +1,4 @@
-<img width="751" height="470" alt="image" src="https://github.com/user-attachments/assets/ac276a93-a7e8-4dae-8270-83ba556f657f" /># finbank
+# finbank
 
 Prueba técnica  dataNow
 
@@ -28,6 +28,62 @@ confiables y actualizados sin procesos manuales
 Microsoft Azure: Se seleccionó Azure debido a que era el entorno cloud con el que se tenía mayor acercamiento previo y documentación disponible, lo que permitió aprovechar mejor el tiempo asignado a la prueba técnica, enfocándose en la implementación de la solución y el aprendizaje específico de los servicios requeridos, en lugar de iniciar desde cero con una plataforma diferente.
 
 
-# se genera masivamente la data 
+# se genera masivamente python
+
+Distribuciones realistas: los datos no deben ser completamente aleatorios. Por ejemplo, las
+ventas deben concentrarse en horarios pico, las edades deben seguir una distribución normal,
+y los montos de transacciones deben reflejar comportamientos típicos del sector.
+• Integridad referencial: todos los identificadores presentes en las tablas de hechos deben
+existir en las tablas de dimensiones correspondientes.
+• Valores nulos controlados: incluir aproximadamente un cinco por ciento de valores nulos
+en campos no críticos para simular condiciones reales de calidad de datos.
+• Cobertura temporal: los datos deben cubrir al menos doce meses de histórico con
+distribución uniforme o estacional según el sector
+
+<img width="751" height="470" alt="image" src="https://github.com/user-attachments/assets/ac276a93-a7e8-4dae-8270-83ba556f657f" />
+
+
+# se valida los registros en la nube de azure
+
+<img width="1964" height="1089" alt="image" src="https://github.com/user-attachments/assets/c9f1241f-e81a-489a-9e52-e37c167df516" />
+
+<img width="1178" height="616" alt="image" src="https://github.com/user-attachments/assets/c9bce4e1-6703-49e1-a872-7c167a307a6f" />
+
+# se implementa arquitectura medallon 
+<img width="2392" height="939" alt="image" src="https://github.com/user-attachments/assets/f34b4ae4-a71d-45ba-b3e0-0489dc5897e8" />
+
+
+## Arquitectura de datos
+
+La solución implementa una arquitectura Medallón sobre Azure, utilizando Azure Data Factory para la ingesta de información, Azure Data Lake Storage Gen2 como repositorio central y Azure Databricks para los procesos de transformación y procesamiento distribuido.
+
+### Flujo de datos
+
+1. **Ingesta (Bronze)**
+   
+   Azure Data Factory realiza la extracción de los archivos fuente y los almacena en la capa Bronze de ADLS Gen2, conservando los datos originales para trazabilidad y auditoría.
+
+   Fuentes cargadas:
+   - TB_CLIENTES_CORE
+   - TB_COMISIONES_LOG
+   - TB_MOV_FINANCIEROS
+   - TB_OBLIGACIONES
+   - TB_PRODUCTOS_CAT
+   - TB_SUCURSALES_RED
+  
+  <img width="2512" height="1390" alt="image" src="https://github.com/user-attachments/assets/88821f3f-01d6-40ae-a2a7-264819ecf824" />
+
+  <img width="2540" height="786" alt="image" src="https://github.com/user-attachments/assets/d44aac24-01f5-4eeb-bd94-23b1b6f17972" />
+
+
+
+
+
+
+
+
+
+
+
 
 
