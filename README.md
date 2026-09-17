@@ -1,4 +1,4 @@
-# finbank
+<img width="751" height="470" alt="image" src="https://github.com/user-attachments/assets/ac276a93-a7e8-4dae-8270-83ba556f657f" /># finbank
 
 Prueba técnica  dataNow
 
@@ -26,4 +26,8 @@ confiables y actualizados sin procesos manuales
 # Plataforma seleccionada
 
 Microsoft Azure: Se seleccionó Azure debido a que era el entorno cloud con el que se tenía mayor acercamiento previo y documentación disponible, lo que permitió aprovechar mejor el tiempo asignado a la prueba técnica, enfocándose en la implementación de la solución y el aprendizaje específico de los servicios requeridos, en lugar de iniciar desde cero con una plataforma diferente.
+
+
+# se genera masivamente la data 
+
 
